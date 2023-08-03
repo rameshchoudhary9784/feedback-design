@@ -61,7 +61,15 @@ body {
 .rating.active small {
     color: #111;
 }
-
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
 .btn {
     background-color: #302d2b;
     color: #fff;
